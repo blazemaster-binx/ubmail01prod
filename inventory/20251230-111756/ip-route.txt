@@ -1,0 +1,7 @@
+default via 167.20.231.232 dev eth0 proto dhcp src 167.20.231.231 metric 100 
+8.8.4.4 via 167.20.231.232 dev eth0 proto dhcp src 167.20.231.231 metric 100 
+8.8.8.8 via 167.20.231.232 dev eth0 proto dhcp src 167.20.231.231 metric 100 
+167.20.231.224/28 dev eth0 proto kernel scope link src 167.20.231.231 metric 100 
+167.20.231.232 dev eth0 proto dhcp scope link src 167.20.231.231 metric 100 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+172.22.1.0/24 dev br-mailcow proto kernel scope link src 172.22.1.1 
